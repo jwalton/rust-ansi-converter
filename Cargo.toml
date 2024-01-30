@@ -1,0 +1,12 @@
+[package]
+name = "ansi-converter"
+authors = ["Jason Walton <dev@lucid.thedreaming.org>"]
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/jwalton/rust-ansi-converter/"
+description = "Convert ANSI documents from RGB and 256 color to 16 colors."
+license = "MIT"
+
+[dependencies]
+anstyle-parse = "0.2.3"
+unicode-segmentation = "1.10.1"
